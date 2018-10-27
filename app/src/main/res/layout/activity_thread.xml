@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".thread.ThreadActivity">
+
+    <ProgressBar
+        android:id="@+id/progressBar_2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/progressBar_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_4"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="369dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.995"
+        app:layout_constraintStart_toEndOf="@+id/tv_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="124dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/progressBar_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="线程1"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@id/tv_1"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="线程2"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@id/tv_3"
+        app:layout_constraintTop_toBottomOf="@id/tv_1"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="43dp" />
+    <TextView
+        android:id="@+id/tv_5"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="线程3"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_3"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <TextView
+        android:id="@+id/tv_6"
+        android:layout_width="118dp"
+        android:layout_height="47dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@id/tv_5"
+        app:layout_constraintTop_toBottomOf="@id/tv_4"
+        android:layout_marginTop="10dp"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="43dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar_1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="150dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="374dp"
+        android:layout_height="31dp"
+        android:text="总进度"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/progressBar_4"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="227dp" />
+</android.support.constraint.ConstraintLayout>

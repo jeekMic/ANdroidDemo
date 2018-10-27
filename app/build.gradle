@@ -5,7 +5,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "app.bxvip.com.myandroid"
-        minSdkVersion 26
+        minSdkVersion 23
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -32,3 +32,5 @@ dependencies {
 repositories {
     mavenCentral()
 }
+
+apply plugin: 'kotlin-android-extensions'
