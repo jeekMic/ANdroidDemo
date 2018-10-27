@@ -19,3 +19,11 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+# litepal框架的混淆
+-keep class org.litepal.** {
+    *;
+}
+
+-keep class * extends org.litepal.crud.LitePalSupport{
+    *;
+}

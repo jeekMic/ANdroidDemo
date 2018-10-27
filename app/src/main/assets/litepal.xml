@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list>
+    <dbname value="BookStore"/><!--dbname代表数据库的名字-->
+
+    <version value="1" /><!--数据库的版本号-->
+
+    <mapping class="app.bxvip.com.myandroid.litepal.Song" />
+    <mapping class="app.bxvip.com.myandroid.litepal.Book" />
+</list>
